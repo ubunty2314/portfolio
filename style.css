@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #181959f2;
+    color: #fff;
+    padding: 10px;
+}
+
+.menu-bar {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.menu-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.name {
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.main-section {
+    position: relative;
+    text-align: center;
+}
+
+.block-pattern {
+    background: repeating-linear-gradient(45deg, #080808, #0e0e0e 10px, #080808 10px, #070707 20px);
+    height: 100vh;
+}
+
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f8f4f4;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+    color: #f8f4f4;
+   font-family: 'Times New Roman', Times, serif;
+}
+.h1 {
+    font-size: 3em; 
+    font-weight: bold; 
+    color: #18a7ef; 
+    margin-bottom: 30px; 
+}
+.highlight-text {
+    color: #f52308; }
+
+.green-button {
+    background-color: #fe1206;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+
+.social-links {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    display: inline-block;
+    width: 30px; 
+    height: 30px; 
+    background-size: cover;
+    margin-bottom: 1px;
+}
+
+.twitter {
+    background-image: url('icons8-twitterx-500.png');
+    width: 40px; 
+    height: 40px; 
+}
+
+.facebook {
+    background-image: url('icons8-facebook-240.png');
+    width: 40px;
+    height: 40px; 
+}
+
+.instagram {
+    background-image: url('icons8-instagram-480.png');
+    width: 40px;
+    height: 40px; 
+    
+}
+
+.youtube {
+    background-image: url('icons8-youtube-480.png');
+    width: 40px; 
+    height: 40px; 
+}
+
+.linkedin {
+    background-image: url('icons8-linkedin-480.png');
+    width: 40px; 
+    height: 40px; 
+}
+
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 10%; 
+    transform: translateY(-50%);
+    color: #333;
+}
+
+.content-inner {
+    text-align: left;
+    float: left;
+    width: 40%; 
+}
+
+.vector-area {
+    float: right;
+    width: 50%; 
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.vector-area img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+
+}
+.ellipse {
+    position: absolute;
+    top: 62%; /* Adjust the position as needed */
+    left: 50%; /* Adjust the position as needed */
+    transform: translate(-50%, -50%) rotate(45deg); /* Tilt the ellipse */
+    width: 400px; 
+    height: 500px; 
+    background-color: rgba(249, 237, 8, 0.966); 
+    border-radius: 75%; /* Make it a circle */
+    z-index: 0; /* Behind the image */
+}
+
+.ring {
+    position: absolute;
+    top: 62%; /* Adjust the position as needed */
+    left: 50%; /* Adjust the position as needed */
+    transform: translate(-50%, -50%) rotate(45deg); /* Center the ring */
+    width: 420px; 
+    height: 520px; 
+    border: 15px solid rgba(38, 96, 1, 0.932); /* Set the border color and width */
+    border-radius: 75%; /* Make it a circle */
+    z-index: 0; /* Behind the ellipse and image */
+}
+
+
+.vector-border {
+    position: absolute;
+    top: -20px; 
+    left: -10px; 
+    bottom: -20px;
+    right: -20px;
+    width: calc(90% + 50px); 
+    height: calc( 100% + 30px); 
+    border: 5px solid #f81404; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
